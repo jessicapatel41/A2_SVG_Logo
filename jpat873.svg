@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <!--<image href="http://redsox.uoa.auckland.ac.nz/ds/logo.svg" height="200" width="200" />-->
+
+  <g transform="scale(5)"> <!-- scale too make the logo bigger -->
+    <!--Start coding here for logo-->
+    <!--lines on top and bottom-->
+    <line x1="6" y1="16" x2='194' y2='16' stroke='black' stroke-width='20' />
+    <line x1="6" y1="184" x2='194' y2='184' stroke='black' stroke-width='20' />
+
+    <!--Circle with clipart to make it half of a circle-->
+    <g clip-path="url(#firstCut)">
+      <circle cx='35' cy='100.5' r="60.5" stroke='black' stroke-width='1' fill="black" />
+    </g>
+
+    <g clip-path="url(#secondCut)">
+      <circle cx='135' cy='100.5' r="60.5" stroke='black' stroke-width='1' fill="black" />
+    </g>
+
+    <!--Rectangles for both of the D's-->
+    <rect x="6.5" y="40.6" width="30" height="118.9" stroke="black" fill="black" />
+    <rect x="106.5" y="40.6" width="30" height="118.9" stroke="black" fill="black" />
+
+    <!--Droplets-->
+    <circle cx='46' cy='110' r="12.5" stroke='white' stroke-width='15' fill="white" />
+    <circle cx='146' cy='110' r="12.5" stroke='white' stroke-width='15' fill="white" />
+
+    <polygon points="46 60, 63 100, 29 100" stroke='white' fill="white" stroke-width='1' />
+    <polygon points="146 60, 163 100, 129 100" stroke='white' fill="white" stroke-width='1' />
+
+  </g>
+
+  <!--Using clipPath to get half of the circlr-->
+  <defs>
+    <clipPath id="firstCut">
+      <rect x="36" y="40" width="62" height="120" fill="none" stroke="blue" />
+    </clipPath>
+
+    <clipPath id="secondCut">
+      <rect x="136" y="40" width="62" height="120" fill="none" stroke="blue" />
+    </clipPath>
+
+  </defs>
+
+
+</svg>
