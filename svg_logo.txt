@@ -29,7 +29,7 @@
   
     </g>
   
-    <!--Using clipPath to get half of the circlr-->
+    <!--Using clipPath to get half of the circle-->
     <defs>
       <clipPath id="firstCut">
         <rect x="36" y="40" width="62" height="120" fill="none" stroke="blue" />
